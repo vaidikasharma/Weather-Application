@@ -1,0 +1,77 @@
+body {
+    background-image: url("../assets/weather.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.searchBox {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 41%;
+}
+
+.banner {
+    background-color: black;
+    width: 1536px;
+    position: relative;
+    top: 70px;
+    box-shadow: 5px 5px 12px black;
+}
+
+.content{
+    /* background-color: brown; */
+    width: 140px;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    color: aliceblue;
+}
+
+@keyframes move {
+    0%{margin-left: 0px;}
+    50%{margin-left: 1390px;}
+    100%{margin-left: 0px;}
+}
+
+.card {
+    position: relative;
+    top: 50px;
+    border: 2px solid black;
+    width: 17%;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 42%;
+    top: 80px;
+    padding: 5px;
+    box-shadow: 6px 6px 16px black;
+}
+
+#head {
+    font-size: 30px;
+    position: relative;
+    bottom:30px;
+    font-weight: bolder;
+    color: black;
+}
+
+#city{
+    position: relative;
+    bottom: 20px;
+    border-radius: 5px;
+    
+
+}
+
+#btn{
+    color: aliceblue;
+    background-color: black;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100px;
+    position: relative;
+    bottom: 10px;
+}
